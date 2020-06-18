@@ -13,7 +13,9 @@ Initial questions and some components inside a question.
   - `Object`: Conversation
   - `Purpose of Action`: X
   - `Type of Purpose of Action`: Regulatory | Non-regulatory
-  
+  - Rationale: Justificatory
+  - Theme: Accountability, Transparency and Explainability
+
 - Does the chatbot use the user's response to train the new model?
   - = Does `User's reponse` in `Model's Input` ?
   - `Agent`: Chatbot
@@ -22,6 +24,7 @@ Initial questions and some components inside a question.
       - `Dataset`: `source`, `date`, `size`, `has_personal_data`, `has_sensitive_data`
       - `Preprocessing`: `normalization`, `masking`
     - `Model's Modelling Algorithm`: A
+  - Theme: Accountability, Transparency and Explainability
 
 - Can the AI provider alter the model of the chatbot?
   - Mentioned a stakeholder
