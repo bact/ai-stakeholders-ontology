@@ -33,6 +33,8 @@ I. D. Raji et al., ‘Closing the AI Accountability Gap: Defining an End-to-End 
 
 #### Training/Testing data
 
+(from the perspective of the Data Provider, it just a dataset - the AI Creator will decide about the training/testin split)
+
 - Transparency and Explainability
   - Can we tell where the training and testing data come from?
   - How the data is being collected? (methodology)
@@ -41,7 +43,7 @@ I. D. Raji et al., ‘Closing the AI Accountability Gap: Defining an End-to-End 
 - Privacy
   - Which methods that have been used to remove personally identifiable information from the dataset
 - Cultural sensitivity
-  - Balance
+  - Balance (again, that can be up to the AI Creator to decide about the selection from the whole dataset)
 
 ### Questions for AI Creator (provides model)
 
