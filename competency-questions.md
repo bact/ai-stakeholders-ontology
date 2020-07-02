@@ -52,6 +52,7 @@ I. D. Raji et al., ‘Closing the AI Accountability Gap: Defining an End-to-End 
 - Transparency and Explainability
   - What is this model for?
   - What domain was it designed for?
+  - e.g. Is this a domain specifi or general chatbot?
   - Can a user get an explanation of how the model makes its decision?
   - What are the model's inputs and outputs?
 - Professional Responsibility
