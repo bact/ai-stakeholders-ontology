@@ -2,12 +2,13 @@
 
 Initial questions and some components inside a question.
 
-### Stakeholders
+### Questions to identify stakeholders
 
 - Who is AI Creator (organization/business function)? +
   - Who is Business Owner (who defines business goals and requirements) *
   - Who is Data Scientist (who uses data to train models to meet requirements) *
   - Who is Model Validator (who uses business goals, regulations, and best practices to test models) *
+    - This can be further expanded. For example, based on I. D. Raji et al. 2020.
 - Who is AI Operator (organization/function)? +
   - Who is AI Operations Engineer (who deploys and monitors models in running services) *
 - Who is AI User? +
@@ -15,13 +16,18 @@ Initial questions and some components inside a question.
 - Who is Oversight Authority? ++
 - Who are Associate Stakeholder? ++
 
-An AI model will be created by an AI Creator and will be deployed as a service by AI Operator for the AI User to use. A Data Provider provides training and testing data to AI Creator. 
+An AI model will be created by an AI Creator and will be deployed as a service by AI Operator for the AI User to use. A Data Provider provides training and testing data to AI Creator.
+
+**There can be a set of questions about roles each individual takes. In which that answer can be use to justify if one belongs to which type of stakeholders.**
 
 (+ ) OECD
 
 (++) D. Lewis, and PJ Wall, ‘The Role of Data Governance and Social Responsibility Standards in Ethical and Societal Considerations of Trustworthy AI’, 2019.
 
 (* ) From J. Richards, D. Piorkowski, M. Hind, S. Houde, and A. Mojsilović, ‘A Methodology for Creating AI FactSheets’, arXiv:2006.13796 [cs], Jun. 2020, Accessed: Jul. 01, 2020. [Online]. Available: http://arxiv.org/abs/2006.13796.
+
+I. D. Raji et al., ‘Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing’, arXiv:2001.00973 [cs], Jan. 2020, Accessed: Feb. 07, 2020. [Online]. Available: http://arxiv.org/abs/2001.00973.
+
 
 ### Questions for Data Provider (provides data)
 
