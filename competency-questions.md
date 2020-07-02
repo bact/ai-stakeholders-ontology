@@ -62,6 +62,11 @@ An AI model will be created by an AI Creator and will be deployed as a service b
   - `Agent`: Chatbot
   - `Agent's Action`: Record
   - `Object`: Conversation
+  - To Whom?: Impacted individuals
+  - Why?: Regulatory compliance; To improve service
+  - What?: Conversation, which may contain personal data of the individual who directly interact with the system or personal data of someone else
+  - When?: Everytime the end-user uses the system; Everytime the end-user gives the content to record
+  - How?: Record to database
 
 - For what regulatory and non-regulatory purposes that the conversation is recorded for?
   - `Agent`: Someone (implicit)
