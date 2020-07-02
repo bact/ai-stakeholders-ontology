@@ -2,6 +2,8 @@
 
 Initial questions and some components inside a question.
 
+**From this we should create hypothetical scenarios, so we ask these questions and get hypothetical answers. From these answers, we can start to build the concepts and relationships for the ontology.**
+
 ### Questions to identify stakeholders
 
 - Who is AI Creator (organization/business function)? +
