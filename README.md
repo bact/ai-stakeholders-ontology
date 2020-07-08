@@ -35,3 +35,8 @@ Rationales toward the design of governance systems:
 - Dignitary rationale (autonomy + dignity)
 
 (from *Understanding Transparency in Algorithmic Accountability* - Margot E. Kaminski)
+
+
+## Refs
+- Guidelines for Human-AI Interaction https://dl.acm.org/doi/10.1145/3290605.3300233 
+- Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making https://dl.acm.org/doi/10.1145/3290605.3300234 
