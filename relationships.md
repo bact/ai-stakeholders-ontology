@@ -23,31 +23,26 @@
 
 Relationships from Competency Questions
 
-- AI User, use, Chatbot
-- AI Operator, operate, Chatbot
-- Chatbot, use, AI Model
-- AI Creator, create, AI Model
-- AI Model, use data from, Training data
-- Data Provider, provide, Training data
-
-- Chatbot, record, Conversation
-- Chatbot, create, Conversation Record
-- Record, is for, Record Purpose
-
-- Record, is part of, Training data
-
-- Chatbot, is type of, (Goal-oriented OR Free chat)
-- Chatbot, goal is, Chatbot Goal
-
-- Chatbot Goal, is essential public service, YES/NO
-
-- Training data, contain, Personal data
-- Training data, contain, Conversation Record
-
-- AI model, created by algorithm, Algorithm
-
-- AI Operator, operate in, Jurisdiction
-
+| Relationship | Question |
+|--------------|----------|
+| AI User, use, Chatbot | |
+| AI Operator, operate, Chatbot | |
+| Chatbot, use, AI Model | |
+| AI Creator, create, AI Model | |
+| AI Model, use data from, Training data | |
+| Data Provider, provide, Training data | |
+| Chatbot, is aware of, Sensitive user information | Will the chatbot be aware of a sensitive property of the user? |
+| Chatbot, record, Conversation | Does the chatbot record the conversation?|
+| Chatbot, create, Conversation Record | |
+| Record, is for, Record Purpose | For what regulatory and non-regulatory purposes that the conversation is recorded for? |
+| Record, is part of, Training data | Does the chatbot use the user's response to train the new model? |
+| Chatbot, is type of, (Goal-oriented OR Free chat) | |
+| Chatbot, goal is, Chatbot Goal | |
+| Chatbot Goal, is essential public service, YES/NO | Does the service provided by the chatbot a public service or an essential service? |
+| Training data, contain, Personal data | |
+| Training data, contain, Conversation Record /| |
+| AI model, created by algorithm, Algorithm | |
+| AI Operator, operate in, Jurisdiction | |
 
 
 ### (from 29 Apr 2020 Supervision Notes)
