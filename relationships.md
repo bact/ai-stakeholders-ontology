@@ -70,3 +70,7 @@ Organisation --[share data with]--> Organisation
 Organisation --[is a data controller of]--> App
 Organisation X --[is a data processor of, for]--> Info, Organisation Y
 ```
+
+## Notes
+- AI User can be a subclass of User in http://theme-e.adaptcentre.ie/odgov/ ?
+- Training data can be a dataid:dataset.
