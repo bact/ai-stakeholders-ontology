@@ -2,17 +2,17 @@
 
 The goal of an ontology here is to be able to do (b).
 
-## Stakeholders
 
+## Concepts
+
+### Stakeholders
 - Data Provider
 - AI Creator
 - AI Operator
 - AI User
 - Oversight Authority
 
-
-## Objects
-
+### Others
 - Chatbot
 - AI Model
 - Training data
