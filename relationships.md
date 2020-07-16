@@ -1,3 +1,7 @@
+"In a nutshell, the concept of “accountability” requires organisations to take necessary steps to: a) **Implement** applicable data protection requirements or goals; and b) Be able to **demonstrate** such implementation." -- [CIPL Accountability Discussion Paper 1](https://www.informationpolicycentre.com/cipl-white-papers.html) - The Case for Accountability: How it Enables Effective Data Protection and Trust in the Digital Society (July 23, 2018)
+
+The goal of an ontology here is to be able to do (b).
+
 ## Stakeholders
 
 - Data Provider
