@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isCreatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isCreatedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Creator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isOperatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isOperatedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chatbot"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Operator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isOperatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isOperatedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Creator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Operator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_User"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data_provider"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Oversight_Authority"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Jurisdiction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isProvidedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#isProvidedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Training_data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data_provider"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#chatbotAlgorithm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#chatbotAlgorithm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chatbot"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Creator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Creator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Operator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_Operator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#AI_User">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Algorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Algorithm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chat_agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chat_agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chatbot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chatbot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chat_agent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Human_agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Converstaion_record -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Converstaion_record">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Training_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data_provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data_provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Human_agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Human_agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Chat_agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Jurisdiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Jurisdiction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Oversight_Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Oversight_Authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Purpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Purpose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Stakeholder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Training_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Training_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/arthit/ontologies/2020/6/untitled-ontology-5#Data"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
