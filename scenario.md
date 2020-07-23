@@ -1,0 +1,34 @@
+Scenario #1: A student talking with a chatbot about his pandemic stress.
+
+- His university in Ireland provides free access to this UK-based online service.
+- Students can login to the service using their university email address.
+- During the registration, the service will ask, in an explicit form, demographic information from the user: like age range and gender. This will be used to personalise/customise the service. The user does not have to answer these questions.
+- The service may have an implicit knowledge that the user is a student of a department or an employee of a business unit, based on the structure of the organisation's email address.
+- During the conversation, some demographic information and other personal information may be revealed from the user to the chatbot. The chatbot has an ability to extract these information from the conversation.
+- The chatbot has a specific purpose in mental health counselling. The user login to the system with an expectation to get that specific service.
+- Mode of communication is mainly text, mixed with an interface for the user to pick an option from a predefined list.
+- The conversation flow is structured according to a mental health counselling approach, like cognitive behavioural therapy (CBT) or cognitive bias modification (CBM). In each session, the chatbot is trying to lead the conversation to some conclusion or action (like "Let's talk again on Tuesday.").
+- A session can be timed out. When there's no user response for too long, the counsellor chatbot will end the conversation with the most appropriate suggestions for the next engagement.
+- The chatbot will have a dialog with the user
+  - to get information about the user
+  - to modify the user behaviour (through encouragement, etc)
+  - to measure the change in stress and other state of mind
+- The user can request the chatbot to have an interaction with a human counsellor. The request will be accepted immediately or scheduled or the chatbot will try to further the conversation.
+- The chatbot can also decide that an intervention from a human counsellor is needed. In that situation it will tell the user and automatically pass it to the human counsellor.
+- The chatbot will record the conversation, the information it can extract from the conversation, the suggestions it made, and states of mind for each individual person.
+- Suggestions will be from a model that match the most with the user profile.
+- The system has many models that are tailored to people of different demographic, professions, stage of life, etc.
+- There can be at least three kinds of AI models involve here:
+  - 1) AI models for natural language understanding (like named-entity recognition [NER], sentiment analysis, anxiety and stress detection) plus other requests for input (choosing photos, choosing menu) to get knowledge about a person's mental state.
+  - 2) AI models to map that mental state with the counselling structure, to see what kind of suggestions should be made or which questions should be asked to further the conversation along the desired flow. Historical records of the individual can be used here.
+  - 3) AI models for natural language generation (like surface realisation) and other outputs will be used to communicate. Effective language and style of encouragement can be different for each individual. Personalisation can play a role here.
+- Models in (1) and (3) are in the area of natural language processing/computational linguistics. They can be either rule-based or data-driven. For the data-driven on, the training data can be more generic for some tasks, like NER.
+- Models in (2) may require domain expertise in mental health counselling. The structure of the conversation flow will be rule-based. The matching of a state of mind (in a form of some knowledge representation) with the state in the flow can be data-driven.
+- Models in (2) are more likely to be subjected to medical regulations or professional code of conduct.
+- The service is available through both web browser and a native app to a mobile OS. In the future, the native app version may ask the user for permission to get access to sensors in the devices (like microphone, camera, GPS, information from connected wearable devices), to get more information to improve the service. Currently the functionality on the web browser and the app are exactly the same, except that the app may be able to show notifications on the device.
+- Sad example case #1:
+  - The student downloads the app from the App Store.
+  - The student opens the app and registers with their university email address.
+  - The student starts a counselling session.
+  - At the end of the session, the chatbot suggests the student to go for a walk sometimes in the garden.
+  - The student goes to the garden at the end of the week and gets pollen allergy.
